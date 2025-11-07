@@ -5,7 +5,7 @@ import Login from '../views/Login.vue'
 import Swipe from '../views/Swipe.vue'
 import Interests from '../views/Interests.vue'
 import Matches from '../views/Matches.vue'
-import Profile from '../views/profile.vue'
+import Profile from '../views/Profile.vue'
 import Users from '../views/Users.vue'
 
 const routes = [
