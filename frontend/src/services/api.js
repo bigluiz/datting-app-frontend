@@ -1,5 +1,7 @@
 import axios from 'axios'
-const API = axios.create({ baseURL: import.meta.env.VITE_API_URL || 'http://localhost:3000/api' })
+const API = axios.create({ 
+  baseURL: import.meta.env.VITE_API_URL || 'https://datting-app-backend.onrender.com'
+})
 
 export function setAuthToken(token) {
   if (token) {
